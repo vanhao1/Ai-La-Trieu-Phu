@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".activity.PlayerActivity">
+
+    <LinearLayout
+        android:id="@+id/ln_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/color_Time"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_Timer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/time_txt"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <ProgressBar
+                android:id="@+id/pg_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminateDrawable="@drawable/progressbar_time"></ProgressBar>
+
+            <ImageView
+                android:id="@+id/iv_player"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_no_avatar"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv_money"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_money"
+                android:src="@drawable/img_money"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:text="@string/scores"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_stop"
+                style="@style/ImageButton_trogiup"
+                android:background="@drawable/btn_stop"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_change"
+                style="@style/ImageButton_trogiup"
+                android:background="@drawable/btn_change_bg"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_5050"
+                style="@style/ImageButton_trogiup"
+                android:background="@drawable/btn_50_50_help"></ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_audience"
+                style="@style/ImageButton_trogiup"
+                android:background="@drawable/btn_audience_bg"></ImageButton>
+            <ImageButton
+                android:id="@+id/btn_call"
+                style="@style/ImageButton_trogiup"
+                android:background="@drawable/btn_call_bg">
+            </ImageButton>
+        </TableRow>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+            <TextView
+                android:id="@+id/tv_level"
+                style="@style/txtCauhoi"
+                android:background="@drawable/player_order_question"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv_question"
+                style="@style/txtQuestion"
+                android:background="@drawable/player_question_background">
+            </TextView>
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

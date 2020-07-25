@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu_N10_Project</string>
+    <string name="nhacNen">Nhạc Nền</string>
+    <string name="amThanh">Âm thanh</string>
+    <string name="time_txt">30</string>
+    <string name="scores">150,000,000</string>
+    <string name="txt_CauHoi">Câu 1</string>
+    <string name="txt_question">Hôm nay là thứ mấy ?</string>
+    <string name="version">Version: 1.1.1.1</string>
+    <string name="design">Design: Nhóm 10</string>
+    <string name="member">Member:</string>
+    <string name="NVH">Nguyễn Văn Hảo</string>
+    <string name="DTA">Đào Tuấn Anh</string>
+    <string name="TLT">Trần Lê Trung</string>
+    <string name="about">Thông tin Nhóm 10</string>
+    <string name="ten">Nhóm 10</string>
+</resources>

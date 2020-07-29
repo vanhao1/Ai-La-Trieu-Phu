@@ -6,35 +6,55 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="ImgeButton_manhinhChinh">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
     <style name="ImageButton_trogiup">
-      <item name="android:layout_margin">16dp</item>
-       <item name="android:layout_width">0dp</item>
-      <item name="android:layout_height" >match_parent</item>
-       <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="TextViewDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:textColor">@color/txtDialog</item>
     </style>
     <style name="txtCauhoi">
-      <item name="android:layout_gravity">center|top</item>
-       <item name="android:textColor">@color/color_Cauhoi</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:textColor">@color/color_Cauhoi</item>
         <item name="android:layout_width">240dp</item>
-       <item name="android:layout_height">36dp</item>
-       <item name="android:text">@string/txt_CauHoi</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:text">@string/txt_CauHoi</item>
         <item name="android:textStyle">bold</item>
-       <item name="android:gravity">center</item>
-        <item name="android:textSize">20sp</item>
-    </style>
-    <style name="txtQuestion">
         <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/player_order_question</item>
+    </style>
+
+    <style name="txtQuestion">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">182dp</item>
+        <item name="android:background">@drawable/player_question_background</item>
+        <item name="android:gravity">center</item>
         <item name="android:padding">20dp</item>
         <item name="android:text">@string/txt_question</item>
-        <item name="android:textColor">@android:color/holo_orange_light</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_orange_light</item>
     </style>
-    <style name="ImgeButton_manhinhChinh">
-      <item name="android:layout_width">32dp</item>
-      <item name="android:layout_height">32dp</item>
-       <item name= "android:layout_margin">16dp</item>
+    <style name="txtListCauHoi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
     </style>
 
 </resources>

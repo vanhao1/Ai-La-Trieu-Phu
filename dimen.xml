@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //xml cai dat
+    <dimen name="padding_caidat">16dp</dimen>
+    <dimen name="width_caidat">42dp</dimen>
+    <dimen name="height_caidat">42dp</dimen>
+    <dimen name="textSize_caidat">18dp</dimen>
+    <dimen name="widthTg_caidat">102dp</dimen>
+    <dimen name="heightRl_caidat">103dp</dimen>
+    //xml activity_main
+    <dimen name="height_activity">400dp</dimen>
+    <dimen name="heightTr_activity">200dp</dimen>
+    //xml activity_nguoichoi
+    <dimen name="height_rlnguoichoi">0dp</dimen>
+    <dimen name="tv_nguoichoi">18sp</dimen>
+    <dimen name="padding_rlnguoichoi">0dp</dimen>
+    <dimen name="imgView_nguoichoi">5dp</dimen>
+</resources>
